@@ -1,0 +1,35 @@
+/*==================  Stuck menu  ======================*/
+@stuck-bg: #fff;
+@stuck-bc: #555;
+
+.stuck_container {
+	// padding: 10px 0;
+}
+
+.isStuck {
+  background: @stuck-bg;
+  z-index: 999;
+  box-shadow: 0 1px 2px #bbb;
+  background: rgba(0, 0, 0, 0.9);
+  padding-bottom: 8px;
+  .navbar-header {
+    padding-top: 17px;
+  }
+  .navbar-nav {
+    padding-top: 22px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .isStuck {
+    display: none !important;
+  }
+}
+
+.isStuck .sf-menu ul{
+	top: 70px;
+}
+
+.isStuck .sf-menu ul ul{
+	top: 0;
+}

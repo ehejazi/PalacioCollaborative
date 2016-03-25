@@ -1,0 +1,212 @@
+@import "mixins.less";
+@import "variables.less";
+
+/*========================================================
+                      Contact Form
+=========================================================*/
+
+@input-height: 62px;
+@input-offset-top: 10px;
+@input-padding: 13px 20px 13px 15px;
+@input-font-family: @font-family-base;
+@input-font-size: 15px;
+@input-line-height: 24px;
+@input-color: @text-color;
+@input-border-radius: 0px;
+@input-brdr: 1px solid transparent;
+@input-font-weight: 400;
+@input-background: @white-clr;
+
+@textarea-height: 212px;
+
+@placeholder-clr: @input-color;
+@placeholder-opacity: 1;
+
+/* MF
+========================================================*/
+.mailform-sub{
+  .clearfix();
+  * + &{
+  margin-top: 52px;
+}
+}
+// .mailform-sub{
+  .mailform-sub{
+  p{
+    text-transform: uppercase;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    color: @white-clr;
+    display: inline-block;
+    float: left;
+    padding-top: 13px;
+    @media (max-width: 1199px) {
+      display: block;
+      float: none;
+      text-align: center;
+        margin-bottom: 30px;
+      & + *{
+      
+      }
+    }
+  }
+}
+
+.mailform-sub .mailform {
+    position: relative;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+
+    fieldset {
+      border: none;
+    }
+
+    * {
+      .box-sizing(border-box);
+    }
+
+    // p{
+    //   font-size: 35px;
+    //   line-height: 62px;
+    //   font-weight: 400;
+    //   color: @white-clr;
+    //   display: inline-block;
+    //   float: left;      
+    //   @media(max-width: 1199px){
+    //     float: none;
+    //     display: block;
+    //     text-align: center;
+    //     margin-bottom: 30px;
+    //   }
+    //   @media(max-width: 767px){
+    //     font-size: 28px;
+    //   }
+    // }    
+  }
+
+  .mailform-sub .mailform fieldset > label,
+  .mailform-sub .mailform .form-group {
+    position: relative;
+    display: inline-block;
+    width: 34.5%;  
+    float: left;
+    margin-left: 6.5%;
+    & + * {
+    margin-left: 8px;
+  }
+
+    &.mfControls{
+      display: inline-block;
+      width: auto; 
+      margin-top: 0;     
+      @media (max-width: 1199px){
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+      }  
+    }
+
+    // & + *{
+    //   margin-left: 1.8%;
+    // }
+    // margin-top: @input-offset-top;
+    // & + label{
+    //   margin-left: 3.2%;
+    //   @media (max-width: 1199px){
+    //     margin-left: 3%;
+    //   }
+    // }
+    @media (max-width: 1199px){
+      width: 100%;
+      margin-left: 0;      
+      float: none;
+    }
+    
+
+    &.textarea{
+      width: 100%;
+      margin-left: 0;
+    }
+
+    &:first-child {
+      margin-top: 0;
+    }
+
+    input, select, textarea {
+      display: block;
+      width: 100%;
+      margin: 0;
+      -webkit-appearance: none;
+      outline: none;
+      font-family: @input-font-family;
+      font-size: @input-font-size;
+      padding: @input-padding;
+      line-height: @input-line-height;
+      color: @input-color;
+      background: @input-background;
+      border: @input-brdr;
+      font-weight: @input-font-weight;
+      .border-radius(@input-border-radius);
+      height: @input-height;
+      
+
+      &:-moz-placeholder {
+        color: @placeholder-clr;
+        opacity: @placeholder-opacity;
+      }
+
+      &::-webkit-input-placeholder {
+        color: @placeholder-clr;
+        opacity: @placeholder-opacity;
+      }
+
+      &::-moz-placeholder {
+        color: @placeholder-clr;
+        opacity: @placeholder-opacity;
+      }
+
+      &:-ms-input-placeholder {
+        color: @placeholder-clr;
+        opacity: @placeholder-opacity;
+      }
+    }
+
+    textarea {
+      resize: vertical;
+      overflow: auto;
+      height: @textarea-height;    
+    }
+
+    @media (max-width: 1365px) {
+      margin-top: 0px;
+    }
+  }
+
+
+
+.mailform-sub .mailform{
+  
+}
+// }
+
+// @import "mailform-sub_modules/_mf-animation.less";
+@import "mailform-sub_modules/_mf-placeholder.less";
+@import "mailform-sub_modules/_mf-validation.less";
+@import "mailform-sub_modules/_mf-submit.less";
+// @import "mailform-sub_modules/_mf-icon.less";
+// @import "mailform-sub_modules/_mf-select.less";
+// @import "mailform-sub_modules/_mf-datepicker.less";
+
+
+
+
+
+
+
+
+
+

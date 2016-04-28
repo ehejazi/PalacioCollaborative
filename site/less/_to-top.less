@@ -1,0 +1,41 @@
+/*==================     ToTop     ======================*/
+.toTop {
+  width: 47px;
+  height: 47px;
+  background: darken(@brand-primary,10%);
+  .border-radius(50%);
+  .transition(.3s);
+  // .box-sizing(border-box);
+  // padding: 10px 0;
+  .box-shadow(0 0 2px 0 rgba(0,0,0,.5));
+
+  position: fixed;
+  right: 66px;
+  bottom: 180px;
+
+  display: none;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  z-index: 99999;
+  &:before{
+    color: #fff!important;
+    line-height: 47px;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &:hover {
+    color: #fff;
+    background: @secondary-clr;
+    text-decoration: none;
+    .border-radius(50%);
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (max-width: 1399px) {
+  .toTop {
+    display: none !important;
+  }
+}
+

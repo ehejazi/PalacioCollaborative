@@ -1,0 +1,1053 @@
+//
+// Typography
+// --------------------------------------------------
+
+// Headings
+// -------------------------
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: @headings-font-family;
+  font-weight: @headings-font-weight;
+  // line-height: @headings-line-height;
+  color: @headings-color;
+  margin: 0;
+}
+
+h1, .h1 {
+  font-size: @font-size-h1;
+  line-height: @font-lh-h1;
+  color: @white-clr;
+  letter-spacing: -1.9px;
+  font-weight: 400;
+  text-transform: uppercase;
+
+  // @media (max-width: 767px){  
+  // }
+  small,
+  .small {
+    // font-weight: 400;
+  }
+
+}
+
+h2, .h2 {
+  font-size: @font-size-h2;
+  line-height: @font-lh-h2;
+  color: @white-clr;
+  font-weight: 400;
+  small {
+    font-size: 45px;
+    line-height: 60px;
+    color: @secondary-clr;
+  }
+
+  @media (max-width: 991px) {
+    font-size: 42px;
+  }
+  @media (max-width: 767px) {
+    font-size: 38px;
+  }
+}
+
+h3, .h3 {
+  font-size: @font-size-h3;
+  line-height: @font-lh-h3;
+  font-weight: 700;
+  letter-spacing: -0.8px;
+  // small{
+  //   font-weight: 400;
+  // }
+
+}
+
+h4, .h4 {
+  font-size: @font-size-h4;
+  line-height: @font-lh-h4;
+  color: @default-mid;
+  text-transform: uppercase;
+}
+
+h5, .h5 {
+  font-size: @font-size-h5;
+  line-height: @font-lh-h5;
+  color: @default-mid;
+  text-transform: uppercase;
+  letter-spacing: 0.24px;
+}
+
+h6, .h6 {
+  font-size: @font-size-h6;
+  line-height: @font-lh-h6;
+  font-weight: 700;
+  letter-spacing: -0.6px;
+}
+
+// Body text
+// -------------------------
+
+p {
+  line-height: @line-height-base;
+  margin: 0;
+}
+
+.lead {
+
+}
+
+.txt1 {
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 300;
+  color: @default-light;
+  letter-spacing: 0;
+}
+
+
+
+// Main Layout
+// -----------------------
+* + .row {
+  margin-top: 33px;
+}
+
+.row + * {
+  margin-top: 30px;
+}
+
+.row + .row {
+  margin-top: 30px;
+}
+
+img + h5 {
+  margin-top: 25px;
+}
+
+h3 + p {
+  margin-top: 2px;
+}
+
+h5 + * {
+  margin-top: 13px;
+}
+
+h2 + .offs1 {
+  margin-top: 12px;
+}
+
+h2 + * {
+  margin-top: 22px;
+}
+
+h6 + * {
+  margin-top: 5px;
+}
+
+* + h6{
+  margin-top: 31px;
+}
+h4 + *{
+  margin-top: 1px;
+}
+h4 + .img_flt{
+  margin-top: 10px;
+}
+
+h3 + *{
+  margin-top: 33px;
+}
+
+* + .btn-link {
+  margin-top: 27px;
+}
+
+* + .btn {
+  margin-top: 44px;
+}
+
+* + .offs2{
+  margin-top: 24px;
+}
+
+* + .offs3{
+  margin-top: 28px;
+}
+
+.ins1 {
+  padding-left: 20%;
+  padding-right: 20%;
+  @media (max-width: 991px) {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+
+.ins_r {
+  padding-right: 18%;
+  @media (max-width: 991px) {
+    padding-right: 1%;
+  }
+}
+
+// FA
+// -----------------------
+
+.fa {
+  line-height: inherit;
+}
+
+[class*='fa-'] {
+  &:before {
+    font-family: @fa;
+    color: inherit;
+  }
+}
+
+// Emphasis & misc
+// -------------------------
+
+// Ex: (12px small font / 14px base font) * 100% = about 85%
+small,
+.small {
+  // font-size: floor((100% * @font-size-small / @font-size-base));
+  // font-size: inherit;
+}
+
+mark,
+.mark {
+  background-color: @brand-warning;
+  padding: .2em;
+}
+
+// Alignment
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.center767 {
+  @media (max-width: 767px) {
+    text-align: center;
+    * {
+      text-align: center;
+    }
+  }
+}
+
+.center991 {
+  @media (max-width: 991px) {
+    text-align: center;
+    * {
+      text-align: center;
+    }
+  }
+}
+
+.left767 {
+  @media (max-width: 767px) {
+    text-align: left;
+    * {
+      text-align: left;
+    }
+  }
+}
+
+.left991 {
+  @media (max-width: 991px) {
+    text-align: left;
+    * {
+      text-align: left;
+    }
+  }
+}
+
+.right767 {
+  @media (max-width: 767px) {
+    text-align: right;
+    * {
+      text-align: right;
+    }
+  }
+}
+
+.right991 {
+  @media (max-width: 991px) {
+    text-align: right;
+    * {
+      text-align: right;
+    }
+  }
+}
+
+// Transformation
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.fw-l {
+  font-weight: 300;
+}
+
+.fw-n {
+  font-weight: 400;
+}
+
+.fw-m {
+  font-weight: 500;
+}
+
+.fw-sb {
+  font-weight: 600;
+}
+
+.fw-b {
+  font-weight: 700;
+}
+
+.fw-xb {
+  font-weight: 800;
+}
+
+.white {
+  color: @white-clr;
+}
+
+.txt-sec {
+  color: @secondary-clr;
+}
+
+.txt-light {
+  color: @default-light;
+}
+
+// Contextual colors
+.text-muted {
+  color: @text-muted;
+}
+
+.text-primary {
+  color: @brand-primary;
+}
+
+.text-success {
+  color: @brand-success;
+}
+
+.text-info {
+  color: @brand-info;
+}
+
+.text-warning {
+  color: @brand-warning;
+}
+
+.text-danger {
+  color: @brand-danger;
+}
+
+// Contextual backgrounds
+// For now we'll leave these alongside the text classes until v4 when we can
+// safely shift things around (per SemVer rules).
+.bg-primary {
+  // Given the contrast here, this is the only class to have its color inverted
+  // automatically.
+
+  background: @brand-primary;
+  // .bg-variant(@brand-primary);
+}
+
+.bg-secondary {
+  background: @secondary-clr;
+}
+
+.bg-success {
+  background: @brand-success;
+}
+
+.bg-info {
+  background: @brand-info;
+}
+
+.bg-warning {
+  background: @brand-warning;
+}
+
+.bg-danger {
+  background: @brand-danger;
+}
+.bg1{
+ background: @default-dark;
+  *{
+    color: @default-lighter;
+    h4{
+      color: @default-mid;
+    }
+    p{
+      font-size: 14px;
+      line-height: 24px;
+    }
+  }
+}
+// Page header
+// -------------------------
+
+.page-header {
+  padding-bottom: ((@line-height-computed / 2) - 1);
+  margin: (@line-height-computed * 2) 0 @line-height-computed;
+  border-bottom: 1px solid @page-header-border-color;
+}
+
+// Lists
+// -------------------------
+
+// Unordered and Ordered lists
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+  li {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    a {
+      padding: 0;
+      list-style: none;
+      margin: 0;
+    }
+  }
+}
+
+// List options
+
+// Unstyled keeps list items block level, just removes default browser padding and list-style
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+// Inline turns list items into inline-block
+/*=================   List Inline   =====================*/
+.list-inline {
+  .list-unstyled();
+  margin-left: -5px;
+
+  > li {
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+/*=================   Inline list   =====================*/
+
+.inline-list {
+  margin-top: 30px;
+  .fa {
+    position: relative;
+    font: 0/0 a;
+    &:hover {
+      &:before {
+        color: @white-clr;
+      }
+      &:after {
+        background: @secondary-clr;
+      }
+    }
+  }
+  .fa:before {
+    font-size: 22px;
+    .transition(.2s);
+    color: @secondary-clr;
+    position: absolute;
+    z-index: 2;
+    left: 16px;
+    top: 5px;
+  }
+  .fa:after {
+    position: absolute;
+    content: '';
+    .transition(.2s);
+    background: @white-clr;
+    width: 44px;
+    height: 44px;
+    .border-radius(50%);
+    z-index: 1;
+    top: -17px;
+    left: 3px;
+  }
+  li {
+    display: inline-block;
+  }
+
+  li + li {
+    margin-left: 13%;
+  }
+}
+
+/*================      Flex list     =================*/
+
+.flex-list {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-list li {
+  display: table-cell;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .flex-list {
+    li {
+      display: block;
+    }
+  }
+}
+
+/*================      Index list     =================*/
+
+.index-list {
+  counter-reset: num;
+  * + &{
+    margin-top: 33px;
+  }
+}
+
+.index-list li {
+  position: relative;
+  padding-left: 80px;
+  display: block;
+  h6{
+    line-height: 1;
+  }
+
+  &:before {
+    content: counter(num, decimal-leading-zero);
+    counter-increment: num;
+    position: absolute;
+    color: @white-clr;
+    width: 60px;
+    height: 60px;
+    //.border-radius(50%);
+    background: @brand-primary;
+    font-size: 24px;
+    font-weight: 700;
+    top: 0px;
+    left: 0px;
+    padding-top: 11px;
+    padding-left: 18px;
+  }
+
+  & + li {
+    margin-top: 31px;
+  }
+}
+
+.index-list_mod{
+  li{
+    padding-left: 95px;
+    & + li {
+      margin-top: inherit;
+    }
+    &:before{
+      left: 15px;
+    }
+  }
+}
+
+
+// Icon List
+
+.icon-list {
+  margin-top: 0px;
+  width: 100%;
+
+  li {
+    display: block;
+    padding-left: 94px;
+    position: relative;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    h6 {
+      line-height: 1;
+    }
+    &:before {
+      position: absolute;
+      content: '\f0c0';
+      font-family: @fa;
+      font-size: 24px;
+      color: @white-clr;
+      width: 60px;
+      height: 60px;
+      background: @brand-primary;
+      left: 15px;
+      top: 0px;
+      padding-left: 17px;
+      padding-top: 12px;
+    }
+    a:hover {
+      color: @brand-primary;
+    }
+    h6 + p {
+      margin-top: 7px;
+    }
+    &:nth-child(n+4) {
+      margin-top: 39px;
+    }
+    @media (max-width: 991px) {
+      &:nth-child(2n+3) {
+        margin-top: 39px;
+      }
+    }
+    @media (max-width: 767px) {
+      &[class*='col-']{
+        float: none;
+      }
+      &:nth-child(n+2) {
+        margin-top: 30px;
+      }
+    }
+  }
+  li:nth-child(2) {
+    &:before {
+      content: '\f19c';
+    }
+  }
+  li:nth-child(3) {
+    &:before {
+      content: '\f0f2';
+    }
+  }
+  li:nth-child(4) {
+    &:before {
+      content: '\f085';
+    }
+  }
+  li:nth-child(5) {
+    &:before {
+      content: '\f109';
+    }
+  }
+  li:nth-child(6) {
+    &:before {
+      content: '\f086';
+    }
+  }
+}
+
+
+// Link list
+
+.link-list {
+  min-width: 100px;
+  margin-top: 6px;
+
+  .icon {
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 7px;
+    &:before {
+      .transition(.3s);
+    }
+  }
+  li {
+    font-size: 15px;
+    line-height: 21px;
+    text-transform: uppercase;
+    & + li {
+      margin-top: 8px;
+    }
+    a:hover {
+      color: @brand-primary;
+      & .icon:before {
+        color: @brand-primary;
+      }
+    }
+  }
+}
+
+
+/*================    Marked list     =================*/
+
+.marked-list {
+  display: block;
+  li {
+    position: relative;
+    padding-left: 24px;
+    &:before {
+      position: absolute;
+      content: '\f138';
+      font-family: @fa;
+      font-size: 15px;
+      color: @brand-primary;
+      left: 0;
+      top: 0;
+    }
+    & + li {
+      margin-top: 10px;
+    }
+  }
+  a {
+    a:hover {
+      color: @brand-primary;
+    }
+  }
+  * + &{
+    margin-top: 24px;
+  }
+  & + *{
+    margin-top: 24px;
+  }
+}
+
+/*================    Term list     =================*/
+
+.terms-list {
+  //margin-top: 8px;
+  dt {
+    //font-weight: 400;
+    //color: @brand-primary;
+    //font-size: 20px;
+  }
+
+  * + dt {
+    margin-top: 25px;
+  }
+
+  dt + * {
+    margin-top: 5px;
+  }
+
+  dd {
+
+  }
+  & + * {
+    margin-top: 27px;
+    a {
+      text-decoration: underline;
+      color: @brand-primary;
+    }
+    a:hover {
+      text-decoration: none;
+      font-weight: 500;
+      color: @secondary-clr;
+    }
+  }
+}
+
+// Description Lists
+dl {
+  padding: 0;
+  margin: 0;
+  font-style: normal;
+}
+
+dt,
+dd {
+  padding: 0;
+  margin: 0;
+}
+
+dt {
+}
+
+dd {
+}
+
+// Horizontal description lists
+//
+// Defaults to being stacked without any of the below styles applied, until the
+// grid breakpoint is reached (default of ~768px).
+
+.dl-horizontal {
+  dd {
+    &:extend(.clearfix all); // Clear the floated `dt` if an empty `dd` is present
+  }
+
+  @media (min-width: @grid-float-breakpoint) {
+    dt {
+      float: left;
+      width: (@dl-horizontal-offset - 20);
+      clear: left;
+      text-align: right;
+      .text-overflow();
+    }
+
+    dd {
+      margin-left: @dl-horizontal-offset;
+    }
+  }
+}
+
+// Misc
+// -------------------------
+
+// Abbreviations and acronyms
+abbr[title],
+  // Add data-* attribute to help out our tooltip plugin, per https://github.com/twbs/bootstrap/issues/5257
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted @abbr-border-color;
+}
+
+.initialism {
+  font-size: 90%;
+  .text-uppercase();
+}
+
+// Blockquotes
+blockquote {
+  margin: 0;
+  font-style: normal;
+  // font-size: @blockquote-font-size;
+  // color: inherit;
+  * + &{
+    margin-top: 28px;
+  }
+  cite {
+
+    font-style: normal;
+    display: block;
+  }
+  * + cite.h6 {
+    margin-top: 17px;
+  }
+  q {
+    .clearfix();
+    font-style: italic;
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  & + blockquote {
+    margin-top: 39px;
+  }
+  @media (max-width: 450px) {
+    text-align: center;
+    .media-left{
+      padding-bottom: 10px;
+      padding-right: 0;
+    }
+  }
+}
+
+// Opposite alignment of blockquote
+//
+// Heads up: `blockquote.pull-right` has been deprecated as of v3.1.0.
+.blockquote-reverse,
+blockquote.pull-right {
+  padding-right: 15px;
+  padding-left: 0;
+  border-right: 5px solid @blockquote-border-color;
+  border-left: 0;
+  text-align: right;
+
+  // Account for citation
+  footer,
+  small,
+  .small {
+    &:before {
+      content: '';
+    }
+    &:after {
+      content: '\00A0 \2014'; // nbsp, em dash
+    }
+  }
+}
+
+// Addresses
+address {
+  font-style: normal;
+  display: block;
+  &.h6{
+    margin-top: 26px;
+  }
+}
+
+.addr1 {
+  margin-top: 5px;
+  color: @text-color;
+  dl {
+    padding-left: 0;
+    margin-top: 0px;
+    max-width: 335px;
+    dt, dd {
+      //font-size: 16px;
+      display: inline-block;
+      //font-weight: 300;
+    }
+    dt {
+      width: 24%;
+      min-width: 93px;
+    }
+    dd {
+      width: 69%;
+      @media (max-width: 1199px) {
+        width: 55%;
+      }
+    }
+    dd + dt {
+      margin-top: 0;
+    }
+    dt + dd {
+      margin-top: 0;
+    }
+
+  }
+  & .mail {
+    margin-top: 24px;
+    dt {
+      width: 15%;
+      min-width: 53px;
+    }
+    dd {
+      // font-weight: 700;
+      color: @brand-primary;
+    }
+    a:hover{
+      color: @secondary-clr;
+    }
+  }
+  @media (max-width: 991px) {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+// Articles
+
+article {
+  time {
+    white-space: nowrap;
+  }
+  time + * {
+    margin-top: -3px;
+  }
+  * + & {
+    margin-top: 28px;
+  }
+  & + article {
+    margin-top: 24px;
+  }
+  .media-left{
+    padding-right: 9px;
+  }
+}
+
+//Figure
+//---------------
+
+figure {
+
+  figcaption {
+  }
+
+}
+
+.ang_block {
+  max-width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -61px;
+  font-weight: 300;
+  padding-top: 16px;
+  padding-bottom: 25px;
+  .border-radius(6px);
+  .transform(skewX(-14deg));
+  .row {
+    .transform(skewX(14deg));
+    div + div {
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: 1px;
+        background: rgba(255, 255, 255, 0.5);
+        .transform(rotate(14deg));
+      }
+    }
+  }
+  em {
+    font-style: normal;
+    font-size: 68px;
+    letter-spacing: -3.67px;
+    color: @white-clr;
+    display: block;
+    line-height: 1;
+  }
+  p {
+    margin-top: -8px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 35px;
+    color: @white-clr;
+    letter-spacing: -0.6px;
+  }
+  @media (max-width: 1260px) {
+    max-width: 1150px;
+  }
+  @media (max-width: 1199px) {
+    max-width: 950px;
+    em {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-top: -2px;
+    }
+  }
+  @media (max-width: 991px) {
+    max-width: 730px;
+  }
+  @media (max-width: 767px) {
+    margin-top: 0;
+    max-width: 767px;
+    .border-radius(0);
+    .transform(skewX(0deg));
+    .row {
+      .transform(skewX(0deg));
+      div + div {
+        position: relative;
+        &:before {
+          display: none;
+        }
+      }
+      .col-xs-6 {
+        margin-top: 15px;
+      }
+    }
+  }
+
+}

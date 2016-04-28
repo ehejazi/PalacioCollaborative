@@ -288,7 +288,7 @@
             if (options.url) {
                 new RDParallax(this, options).init();
             } else {
-                console.error('RD Parallax: data-url is not defined');
+                
             }
         });
     };

@@ -7,6 +7,7 @@
   position: relative;
   padding-bottom: 38.73170732%;
   margin-top: -78px;
+
 }
 @media (max-width: 767px) {
   .camera_container {
@@ -26,6 +27,7 @@
   margin-bottom: 0 !important;
   height: 100%;
   z-index: 0;
+  background-color: rgb(255, 255, 255);
 }
 .camera_wrap img {
   max-width: none !important;
@@ -90,7 +92,7 @@
   z-index: 2;
 }
 .camera_loader {
-  background: #ffffff url(../images/camera-loader.gif) no-repeat center;
+  background: url(../images/camera-loader.gif) no-repeat center;
   border: 1px solid #ffffff;
   border-radius: 18px;
   height: 36px;

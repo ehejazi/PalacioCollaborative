@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="format-detection" content="telephone=no"/>
+    <title>Performance</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/imageBox.css">   
+    <link href="css/bootstrap.css" rel="stylesheet">
+      <link href="css/teamPics.css" rel="stylesheet">
+
+
+    <!-- Links -->
+
+
+    <!--JS-->
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/rd-smoothscroll.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/Chart.js-master/dist/Chart.bundle.js"></script>
+
+
+    <!--[if lt IE 9]>
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src='js/device.min.js'></script>
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+
+    <header class="head1">
+        <div id="stuck_container" class="stuck_container">
+            <nav class="navbar navbar-default navbar-static-top ">
+                <div class="container">
+                    <div class="navbar-header">
+                        <h1 class="navbar-brand">
+                            <a data-type='rd-navbar-brand' href="index.html"><span class="palacio" >Palacio</span><span>&nbsp;</span><span style="color: red;">Collaborative</span></a>
+                        </h1>
+                    </div>
+
+                    <ul class="navbar-nav sf-menu navbar-right" data-type="navbar">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="index-1.html">About</a>
+                            <ul class="dropdown-menu">
+                               <li>
+                                    <a href="index-1.html#Words">About Us</a>
+                                </li>
+                                <li>
+                                    <a href="index-1.html#hist">History</a>
+                                </li>
+                                <li>
+                                    <a href="index-1.html#team">The Team</a>
+                                </li>
+                                <li>
+                                    <a href="index-1.html#adv">Advantages</a>
+                                </li>
+                                <li>
+                                    <a href="index-1.html#test">Testimonials</a>
+                                </li>
+
+                            </ul>
+                        </li>
+                        </li>
+                        <li class="active">
+                            <a href="index-2.html">Services</a>
+                        </li>
+                        <li>
+                            <a href="index-3.html">Projects</a>
+                        </li>
+
+                        <li>
+                            <a href="index-4.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+    </header>
+
+    <!--========================================================
+                              CONTENT
+    =========================================================-->
+
+    <main>
+        <section>
+            <div class="container" style="padding-left: 2%; padding-right: 2%;">
+                    <h3 class="text-center">
+                    We Are Accurate
+                </h3>
+
+                <p class="text-center">
+                   Establishing a reconciled budget and scope is a critical first step toward project success. The earlier a Construction Cost Manager is introduced in the Design process, the greater an environment is created for proper project alignment. Palacio Collaborative is able to provide Budgeting and Conceptual Estimating at the beginning of the Pre-design or programming stage. Our Cost Management services continue to accurately reflect project cost and control at every phase of the phase of the project to help the Owner and Project Team to create the most building the budget will allow.
+                </p>
+            </div>
+            <div class="row" style="padding-left: 2%; padding-right: 2%;">
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">West Georgia Technical College Allied Health Building</h6>
+                    <canvas id="myChart" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6" style="padding-bottom: 1px;">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Southern Polytechnic State University Engineering Technology Center</h6>
+                    <canvas id="myChart1" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of North Georgia Academic Building</h6>
+                    <canvas id="myChart2" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6" style="padding-bottom: 1px;">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Gwinnett College Library</h6>
+                    <canvas id="myChart3" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Southern University Alumni Center</h6>
+                    <canvas id="myChart4" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6 chart5">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of West Georgia Bookstore</h6>
+                    <canvas id="myChart5" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Insitute of North Avenue Apartments Dining Hall</h6>
+                    <canvas id="myChart6" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6 chart7">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Emory University Freshman Hall IV</h6>
+                    <canvas id="myChart7" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of West Georgia Irvine Sullivan Library</h6>
+                    <canvas id="myChart8" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6 chart9">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Gwinnet College Building “D” Renovation</h6>
+                    <canvas id="myChart9" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Institute of Technology Quad Café</h6>
+                    <canvas id="myChart10" style="margin-top: 10px;"></canvas>
+                </div>
+                <div class="col-md-6">
+                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Lanier Technical College Barrow County Campus</h6>
+                    <canvas id="myChart11" style="margin-top: 10px;"></canvas>
+                </div>
+            </div>
+            <script>
+                Chart.defaults.global.responsive = true;
+                Chart.defaults.global.defaultFontColor = 'black';
+                Chart.defaults.global.legend.labels.fontSize = 18;
+                Chart.defaults.global.legend.display = false;
+                Chart.defaults.global.elements.line.backgroundColor = 'black';
+
+                var chartFunc = function(id, labelsX, dataPoints, minimum, maximum) {
+                    var ctx = document.getElementById(id);
+                    var data = {
+                        labels: labelsX,
+                        datasets: [{
+                            label: "Cost",
+                            data: dataPoints,
+                            fill: false,
+                            borderColor: "red",
+                            backgroundColor: "black",
+                            pointBorderColor: "black",
+                            pointBackgroundColor: "black",
+                            pointBorderWidth: 1
+                        }]
+                    };
+                    var myLineChart = new Chart(ctx, {
+                        label: "my data set",
+                        type: 'line',
+                        data: data,
+                        options: {
+                            responsive: true,
+                            scales: {
+                                yAxes: [{
+                                    ticks: {
+                                        min: minimum,
+                                        max: maximum,
+                                        userCallback: function(tick) {
+                                            return tick / 1000000 + " million";
+                                        }
+                                    }
+                                }]
+                            }
+                        }
+                    });
+                }
+        chartFunc("myChart", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [9300000, 9239000, 9300000], 9200000, 9400000);
+        chartFunc("myChart1", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [27970000, 27913000, 26000000], 25000000, 28000000);
+        chartFunc("myChart2", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [28314200, 27963147, 28400000], 26000000, 30000000);
+        chartFunc("myChart3", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [20297900, 20204499, 19990699], 18000000, 21000000);
+        chartFunc("myChart4", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [2999000, 2994000, 2858000], 1000000, 4000000);
+        chartFunc("myChart5", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [4925600, 4465615, 4417420], 3000000, 6000000);
+        chartFunc("myChart6", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [5674719, 6142833, 6265448], 5000000, 7000000);
+        chartFunc("myChart7", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [31034879, 31333917, 31262484], 30000000, 33000000);
+        chartFunc("myChart8", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [5999218, 6000000, 5826473], 5000000, 7000000);
+        chartFunc("myChart9", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [3434961, 3476786, 3579000], 3000000, 5000000);
+        chartFunc("myChart10", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [1067000, 986979, 998300], 0, 2000000);
+        chartFunc("myChart11", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+            [12999000, 13029000, 13000000], 12000000, 14000000);
+            </script>
+        </section>
+
+    </main>
+
+    <!--========================================================
+                            FOOTER
+  =========================================================-->
+    <footer>
+        <section class="well_foot-2">
+            <div class="container">
+                <div class="rights" style="text-align: center;">
+                    <span style="color: white; display: inline;">Palacio&nbsp;</span><span style="color: red;">Collaborative</span> &#169; <span id="copyright-year"></span>&nbsp;
+                </div>
+            </div>
+        </section>
+
+    </footer>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/tm-scripts.js"></script>
+<!-- </script> -->
+
+
+</body>
+</html>

@@ -9,7 +9,11 @@
     <title>About</title>
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
+     <link href="assets/examples/carousel/carousel.css" rel="stylesheet">
+     <link href="css/bootstrap.css" rel="stylesheet">
+     <link href="css/teamPics.css" rel="stylesheet">
+    
 
     <!-- Links -->
     
@@ -18,6 +22,7 @@
     <script src="js/jquery.js"></script>
     <script src="js/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/rd-smoothscroll.min.js"></script>
+    <script src="assets/assets/js/ie-emulation-modes-warning.js"></script>
 
 
     <!--[if lt IE 9]>
@@ -29,9 +34,10 @@
     </div>
     <script src="js/html5shiv.js"></script>
     <![endif]-->
-    <script src='js/device.min.js'></script>
+     <script src='js/device.min.js'></script>
+ 
 </head>
-<body>
+<body style="padding-bottom: 0;">
 <div class="page">
     <!--========================================================
                               HEADER
@@ -102,7 +108,66 @@
                         <h3 class="text-center">
                             A Few Words About Us
                         </h3>
-                        <img class="wow fadeInLeft" data-wow-duration="2s" src="images/k-12/pic3.jpg" alt="">
+                        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+        <li data-target="#myCarousel" data-slide-to="4"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img src="images/CorporateReligious/pic1.jpg" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+             
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/SciTech/pic1.jpg" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/SciTech/pic14.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/Education/pic53.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/k-12/pic3.jpg" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
                         <p style="padding-top:15px; text-align: left;">
                             Palacio Collaborative, Inc. provides comprehensive facility solutions through full service Construction Program, Cost, and Value Management. We are a certified Minority Business Enterprise (MBE) and Disadvantaged Business Enterprise (DBE) firm with over 100 years of combined staff experience. Palacio Collaborative has a unique approach, which integrates Program and Cost Management to deliver a successful built environment which allows us to ensure your next facility project is on time, within budget, and with optimal quality, function, and value.
@@ -134,9 +199,9 @@
                 </h3>
 
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv" style="padding-bottom: 24px;">
-                        <div class="thumbnail thumbnail3">
-                            <a  class="teamPic2" href="michael.html"><img class="teamPics" src="images/teamPics/michael.png" alt=""></a>
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv">
+                        <div class="thumbnail thumbnail3 mike">
+                            <a  class="teamPic2" href="michael.html"><img class="teamPics" src="images/teamPics/michael2.jpg" alt=""></a>
                             <div class="caption nameTitle">
                                 <h6 class="white">
                                     <a href="michael.html">
@@ -150,7 +215,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv">
                         <div class="thumbnail  thumbnail3">
                             <a  class="teamPic2" href="susan.html"><img class="teamPics" src="images/teamPics/susan.png" alt=""></a>
 
@@ -167,26 +232,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
-                        <div class="thumbnail  thumbnail3">
-                            <a  class="teamPic2" href="david.html"><img class="teamPics" src="images/teamPics/david.png" alt=""></a>
-
-                            <div class="caption nameTitle">
-                                <h6 class="white">
-                                    <a href="david.html">
-                                        W. David Stoutamire
-                                    </a>
-                                </h6>
-
-                                <p class="white">
-                                    Vice President, Program Management Services
-                                </p>
-                            </div>
-                        </div>
-                    </div>
             
-            
-                <div class="col-md-4 col-sm-6 col-xs-12 terry picDiv">
+                <div class="col-md-3 col-sm-6 col-xs-12 terry picDiv" style="padding-bottom: 48px;">
                         <div class="thumbnail  thumbnail3">
                             <a  class="teamPic2" href="terry.html"><img class="teamPics" src="images/teamPics/terry.png" alt=""></a>
 
@@ -203,14 +250,14 @@
                             </div>
                         </div>
                     </div>
-                <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
+                <div class="col-md-3 col-sm-6 col-xs-12 latarsha picDiv">
                         <div class="thumbnail thumbnail3" style="margin-top: 0;">
                             <a  class="teamPic2" href="latarsha.html"><img class="teamPics" src="images/teamPics/david.png" alt=""></a>
 
                             <div class="caption nameTitle">
                                 <h6 class="white">
                                     <a href="latarsha.html">
-                                        W. David Stoutamire
+                                        Latarsha Bailey
                                     </a>
                                 </h6>
 
@@ -220,26 +267,26 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv kev">
+                    
+                
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv">
                         <div class="thumbnail  thumbnail3">
-                            <a  class="teamPic2" href="kevita.html"><img class="teamPics" src="images/teamPics/kevita.png" alt=""></a>
+                            <a  class="teamPic2" href="jodie.html"><img class="teamPics" src="images/teamPics/jodie.png" alt=""></a>
 
                             <div class="caption nameTitle">
                                 <h6 class="white">
-                                    <a href="kevita.html">
-                                        Kevita Spear
+                                    <a href="jodie.html">
+                                        Jodie Kyle
                                     </a>
                                 </h6>
 
                                 <p class="white">
-                                    Facilities Manager
+                                    Senior Mechanical Cost Manager
                                 </p>
                             </div>
                         </div>
-                    </div>
-                
-                
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
+                    </div>               
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv">
                         <div class="thumbnail  thumbnail3">
                             <a  class="teamPic2" href="candy.html"><img class="teamPics" src="images/teamPics/candy.png" alt=""></a>
 
@@ -256,24 +303,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
-                        <div class="thumbnail  thumbnail3">
-                            <a  class="teamPic2" href="jodie.html"><img class="teamPics" src="images/teamPics/jodie.png" alt=""></a>
-
-                            <div class="caption nameTitle">
-                                <h6 class="white">
-                                    <a href="jodie.html">
-                                        Jodie Kyle
-                                    </a>
-                                </h6>
-
-                                <p class="white">
-                                    Senior Mechanical Cost Manager
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4 col-sm-6 col-xs-12 picDiv">
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv">
                         <div class="thumbnail  thumbnail3">
                             <a  class="teamPic2" href="kerron.html"><img class="teamPics" src="images/teamPics/kerron.png" alt=""></a>
 
@@ -286,6 +316,23 @@
 
                                 <p class="white">
                                     Cost Manager
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-12 picDiv kev">
+                        <div class="thumbnail  thumbnail3">
+                            <a  class="teamPic2" href="kevita.html"><img class="teamPics" src="images/teamPics/kevita.png" alt=""></a>
+
+                            <div class="caption nameTitle">
+                                <h6 class="white">
+                                    <a href="kevita.html">
+                                        Kevita Spear
+                                    </a>
+                                </h6>
+
+                                <p class="white">
+                                    Facilities Manager
                                 </p>
                             </div>
                         </div>
@@ -416,7 +463,13 @@
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="js/tm-scripts.js"></script>
+<script src="assets/dist/js/bootstrap.min.js"></script>
+<script src="assets/assets/js/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="assets/assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src='js/device.min.js'></script>
 <!-- </script> -->
 
 

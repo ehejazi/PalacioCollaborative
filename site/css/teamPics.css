@@ -1,0 +1,43 @@
+.mike{
+  padding-bottom: 24px;
+}
+.latarsha{
+  padding-bottom: 48px;
+}
+@media (min-width: 992px) and (max-width: 1009px) { 
+  div.thumbnail.thumbnail3.mike{
+    padding-bottom: 48px !important;
+    color: green;
+  }
+  .latarsha {
+    padding-bottom: 72px;
+  }
+}
+
+#chart{
+	width: 100%;
+}
+@media (min-width: 1000px) {
+  .chart7{
+    padding-bottom: 24px;
+  }
+}
+@media (min-width: 1011px) and (max-width: 1012px) {
+  .chart5 {
+    padding-bottom: 1px;
+  }
+  .chart9{
+    padding-bottom: 1px;
+  }
+}
+@media (min-width: 990px){
+  .chart5{
+    padding-bottom: 1px;
+  }
+  .chart7{
+    padding-bottom: 1px;
+  }
+  .chart9{
+    padding-bottom: 1px;
+  }
+}

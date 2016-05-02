@@ -1,0 +1,15 @@
+.mike{
+  padding-bottom: 24px;
+}
+.latarsha{
+  padding-bottom: 48px;
+}
+@media (min-width: 992px) and (max-width: 1009px) { 
+  div.thumbnail.thumbnail3.mike{
+    padding-bottom: 48px !important;
+    color: green;
+  }
+  .latarsha {
+    padding-bottom: 72px;
+  }
+}

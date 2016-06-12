@@ -22,22 +22,42 @@
     padding-bottom: 24px;
   }
 }
-@media (min-width: 1011px) and (max-width: 1012px) {
-  .chart5 {
-    padding-bottom: 1px;
+@media (min-width: 990px) and (max-width: 1258px) {
+  #chartP{
+    padding-bottom: 24px;
   }
-  .chart9{
-    padding-bottom: 1px;
+}
+@media (min-width: 990px) and (max-width: 1193px) {
+  .chart{
+    padding-bottom: 34px !important;
+  }
+}
+@media (min-width: 990px) and (max-width: 1305px) {
+  .chart4P{
+    padding-bottom: 24px;
   }
 }
 @media (min-width: 990px){
+  .chart0{
+    padding-bottom: 2px;
+  }
+  .chart3{
+    padding-bottom: 2px;
+  }
   .chart5{
-    padding-bottom: 1px;
+    padding-bottom: 2px;
   }
   .chart7{
-    padding-bottom: 1px;
+    padding-bottom: 2px;
   }
   .chart9{
-    padding-bottom: 1px;
+    padding-bottom: 2px;
   }
+}
+canvas {
+            width: 100% !important;
+            max-width: 800px;
+            height: auto !important;
+            padding-left: 2% !important;
+            padding-right: 2% !important;
 }

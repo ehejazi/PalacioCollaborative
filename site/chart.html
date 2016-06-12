@@ -81,9 +81,16 @@
                         <li class="active">
                             <a href="index-2.html">Services</a>
                         </li>
-                        <li>
-                            <a href="index-3.html">Projects</a>
-                        </li>
+                        <li class="dropdown active">
+                            <a href="index-3.html">Portfolio</a>
+                            <ul class="dropdown-menu">
+                               <li>
+                                    <a href="index-3.html">Projects</a>
+                                </li>
+                                <li>
+                                    <a href="chart.html">Performance</a>
+                                </li>
+                            </ul>
 
                         <li>
                             <a href="index-4.html">Contact</a>
@@ -110,65 +117,88 @@
                    Establishing a reconciled budget and scope is a critical first step toward project success. The earlier a Construction Cost Manager is introduced in the Design process, the greater an environment is created for proper project alignment. Palacio Collaborative is able to provide Budgeting and Conceptual Estimating at the beginning of the Pre-design or programming stage. Our Cost Management services continue to accurately reflect project cost and control at every phase of the phase of the project to help the Owner and Project Team to create the most building the budget will allow.
                 </p>
             </div>
-            <div class="row" style="padding-left: 2%; padding-right: 2%;">
+            <div class="row" style="padding-left: 2%; padding-right: 2%; text-align: center;">
                 <div class="col-md-6">
-                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">West Georgia Technical College Allied Health Building</h6>
-                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center; padding-bottom: 24px;">Project completed successfully within the construction budget.</p>
+                    <h6 class="chart" style="text-align: center; padding-bottom: 10px; max-width: 98%;">West Georgia Technical College Allied Health Building</h6>
+                    <p id="chartP" style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project completed successfully within the construction budget.</p>
                     <canvas id="myChart" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
-                <div class="col-md-6" style="padding-bottom: 1px;">
+                <div class="col-md-6 chart0">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Southern Polytechnic State University Engineering Technology Center</h6>
-                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Budget reduced by $2 Million at DD phase with Palacio Collaborative leading VE effort. No loss of building area, scope, or quality</p>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Budget reduced by $2 Million at DD phase with Palacio Collaborative leading VE effort.</p>
                     <canvas id="myChart1" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
 
                 <div class="col-md-6">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of North Georgia Academic Building</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project scope and design quality remained consistent from the Cost Model to Construction Documents.</p>
                     <canvas id="myChart2" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
-                <div class="col-md-6" style="padding-bottom: 1px;">
+                <div class="col-md-6 chart3">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Gwinnett College Library</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center; padding-bottom: 24px;">Added 5% Value or $1,000,000 to the project.</p>
                     <canvas id="myChart3" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
-                <!--<div class="col-md-6">
+                <div class="col-md-6">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Southern University Alumni Center</h6>
+                    <p class="chart4P" style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project bid within 4% of Palacio Collaborative's estimate.</p>
                     <canvas id="myChart4" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
                 <div class="col-md-6 chart5">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of West Georgia Bookstore</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project remained consistent in scope and budget reconciliation throughout design phases.</p>
                     <canvas id="myChart5" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
                 <div class="col-md-6">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Insitute of North Avenue Apartments Dining Hall</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project remained consistent in scope and budget throughout design process.</p>
                     <canvas id="myChart6" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
                 <div class="col-md-6 chart7">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Emory University Freshman Hall IV</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Provided Cost Modeling and Cost Management adding 4% value or $1,250,000.</p>
                     <canvas id="myChart7" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
                 <div class="col-md-6">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">University of West Georgia Irvine Sullivan Library</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Project remained consistent throughout design process.</p>
                     <canvas id="myChart8" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
                 <div class="col-md-6 chart9">
                     <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Gwinnet College Building “D” Renovation</h6>
+                    <p style="font-size: 16px; padding-left: 2%; padding-right: 2%; text-align: center;">Palacio Collaborative estimate came within 4% of the selected bidder.</p>
                     <canvas id="myChart9" style="margin-top: 10px;"></canvas>
+                    <p style="padding-left: 2%; padding-right: 2%;">CE = Conceptual Estimate, DDP = Design Development Phase, FCC = Final Construction Cost</p>
                 </div>
-                <div class="col-md-6">
-                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Georgia Institute of Technology Quad Café</h6>
-                    <canvas id="myChart10" style="margin-top: 10px;"></canvas>
-                </div>
-                <div class="col-md-6">
-                    <h6 style="text-align: center; padding-bottom: 10px; max-width: 98%;">Lanier Technical College Barrow County Campus</h6>
-                    <canvas id="myChart11" style="margin-top: 10px;"></canvas>
-                </div>-->
             </div>
             <script>
+                function commaSeparateNumber(val){
+                    while (/(\d+)(\d{3})/.test(val.toString())){
+                      val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+                    }
+                    return val;
+                  }
                 Chart.defaults.global.responsive = true;
                 Chart.defaults.global.defaultFontColor = 'black';
-                Chart.defaults.global.legend.labels.fontSize = 18;
+                Chart.defaults.global.defaultFontSize = 12;
                 Chart.defaults.global.legend.display = false;
                 Chart.defaults.global.elements.line.backgroundColor = 'black';
+                Chart.defaults.global.tooltips.callbacks.label = function(tooltipItem, data) {
+                    return data.datasets[0].label + ": $" + commaSeparateNumber(tooltipItem.yLabel);
+                }
+                Chart.defaults.global.legend.labels.boxWidth = 0;
+                Chart.defaults.global.legend.onClick = function() {}
+                Chart.defaults.global.legend.position = 'bottom';
+                Chart.defaults.global.legend.fullWidth = false;
 
                 var chartFunc = function(id, labelsX, dataPoints, minimum, maximum) {
                     var ctx = document.getElementById(id);
@@ -197,7 +227,7 @@
                                         min: minimum,
                                         max: maximum,
                                         userCallback: function(tick) {
-                                            return tick / 1000000 + " million";
+                                            return '$' + tick / 1000000 + " million";
                                         }
                                     }
                                 }]
@@ -205,30 +235,26 @@
                         }
                     });
                 }
-        chartFunc("myChart", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart", ["CE", "DDP", "FCC"], 
             [9300000, 9239000, 9300000], 9200000, 9400000);
-        chartFunc("myChart1", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart1", ["CE", "DDP", "FCC"], 
             [27970000, 27913000, 26000000], 25000000, 28000000);
-        chartFunc("myChart2", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart2", ["CE", "DDP", "FCC"], 
             [28314200, 27963147, 28400000], 26000000, 30000000);
-        chartFunc("myChart3", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart3", ["CE", "DDP", "FCC"], 
             [20297900, 20204499, 19990699], 18000000, 21000000);
-        chartFunc("myChart4", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart4", ["CE", "DDP", "FCC"], 
             [2999000, 2994000, 2858000], 1000000, 4000000);
-        chartFunc("myChart5", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart5", ["CE", "DDP", "FCC"], 
             [4925600, 4465615, 4417420], 3000000, 6000000);
-        chartFunc("myChart6", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart6", ["CE", "DDP", "FCC"], 
             [5674719, 6142833, 6265448], 5000000, 7000000);
-        chartFunc("myChart7", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart7", ["CE", "DDP", "FCC"], 
             [31034879, 31333917, 31262484], 30000000, 33000000);
-        chartFunc("myChart8", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart8", ["CE", "DDP", "FCC"], 
             [5999218, 6000000, 5826473], 5000000, 7000000);
-        chartFunc("myChart9", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
+        chartFunc("myChart9", ["CE", "DDP", "FCC"], 
             [3434961, 3476786, 3579000], 3000000, 5000000);
-        chartFunc("myChart10", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
-            [1067000, 986979, 998300], 0, 2000000);
-        chartFunc("myChart11", ["Conceptual Estimate", "Design Development Phase", "Final Construction Cost"], 
-            [12999000, 13029000, 13000000], 12000000, 14000000);
             </script>
         </section>
 

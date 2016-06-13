@@ -1,0 +1,86 @@
+<HTML>
+<HEAD>
+<TITLE>Palacio Collaborative</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+<link href="/style/main.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style4 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style8 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style10 {color: #FFFFCC; font-weight: bold; font-size: 24px;}
+.style11 {
+	font-size: 24px
+}
+-->
+</style>
+</HEAD>
+<BODY BGCOLOR=#999999 text="#FFFFFF" link="#FFFF99" vlink="#FFFF99" alink="#FFFF99">
+<!-- ImageReady Slices (4.psd) -->
+<TABLE WIDTH=901 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD COLSPAN=2> <img src="images/portfolioheader.jpg" width="901" height="306"></TD>
+  </TR>
+  
+  <TR> 
+    <TD width="194" valign="top" bgcolor="#000000"><p align="center">&nbsp;</p>
+    <p align="center">&nbsp;</p></TD>
+    <TD width="707" valign="top" background="images/inside_04.jpg" bgcolor="#333333"> <div align="center" class="style8">
+      
+        <div align="center">
+          <table width="100%" border="0" cellpadding="5" cellspacing="2" bordercolor="#FFFFFF">
+            <tr> 
+              <td width="681" valign="top" bgcolor="#333333"> <div align="justify"> 
+                <p align="center" class="style10">Under Construction</p>
+                  </div>            </td>
+            </tr>
+            
+            
+            <tr>
+              <td height="14" valign="top" bgcolor="#333333"><hr>            </td>
+            </tr>
+            <tr>
+              <td height="30" valign="top" bgcolor="#333333"><p><em>Our apologies - the Palacio Collaborative Website is currently under construction.</em></p>
+                <p>Need to contact us?</p>
+                <p>Palacio Collaborative<br>
+                  1425 Ellsworth Industrial Blvd., NW<br>
+                  Suite 7<br>
+                  Atlanta, GA 30318<br>
+                </p>
+                <p>Phone: 404.609.9006<br>
+            Fax: 404.529.4400</p>
+                <p>E-mail: dmelton (at) palaciocollaborative (dot) com</p>
+                <p>&nbsp;</p>
+              <p align="center" class="style11">Check back soon!</p></td>
+            </tr>
+            <tr>
+              <td valign="top" bgcolor="#333333"><hr></td>
+            </tr>
+          </table>
+        </div>
+    </div></TD>
+  </TR>
+</TABLE>
+<div align="center">
+  <table width="901
+  " border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="195" bgcolor="#000000">&nbsp;</td>
+    <td width="706" bgcolor="#CC0000">&nbsp;</td>
+    </tr>
+  </table>
+  <span class="style4"><font color="#FFFFFF">Site Design 
+  By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, 
+LLC.</a></font></span></div>
+</BODY>
+</HTML>

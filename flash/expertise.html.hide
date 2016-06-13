@@ -1,0 +1,121 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Palacio Collaborative</title>
+	<link href="/style/main.css" rel="stylesheet" type="text/css" /><script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+	<style type="text/css"><!--
+.style4 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+.style6 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.style7 {
+	font-size: 12
+}
+.style8 {font-size: 12px}
+-->
+	</style>
+</head>
+<body alink="#FFFF99" bgcolor="#999999" link="#FFFF99" onload="MM_preloadImages('images/homered.jpg','images/expertisered.jpg','images/profilered.jpg','images/portfoliored.jpg','images/newsletterred.jpg','images/legalred.jpg')" text="#FFFFFF" vlink="#FFFF99">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="901">
+	<tbody>
+		<tr>
+			<td colspan="2"><img height="306" src="images/expertiseheader.jpg" width="901" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#000000" valign="top" width="194">
+			<p><a href="http://www.palaciocollaborative.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/homered.jpg',1)"><img alt="Home" border="0" height="24" name="Home" src="images/homeblk.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/profile.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Profile','','images/profilered.jpg',1)"><img alt="Profile" name="Profile" src="images/profileblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/certifications.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('certifications','','http://www.palaciocollaborative.com/images/certificationsred.jpg',1)"><img alt="Certifications" name="certifications" src="http://www.palaciocollaborative.com/images/certifications.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/expertise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Expertise','','images/expertisered.jpg',1)"><img alt="Expertise" name="Expertise" src="images/expertiseblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/programmanagement.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/programred.jpg',1)"><img name="Image12" src="images/programblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Portfolio','','images/portfoliored.jpg',1)"><img alt="Portfolio" name="Portfolio" src="images/porfolioblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/newsletter.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Newsletter','','images/newsletterred.jpg',1)"><img alt="Newsletter" name="Newsletter" src="images/newsletterblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/legal.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Legal','','images/legalred.jpg',1)"><img alt="Legal" name="Legal" src="images/legalblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','images/contactred.jpg',1)"><img alt="Contact" name="Contact" src="images/contactblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a></p>
+
+			<p align="center"><a href="http://www.usgbc.org/" target="_blank"><img alt="LEED" border="0" height="76" src="http://www.palaciocollaborative.com/images/leed.jpg" width="77" /></a></p>
+
+			<p align="center"><a href="http://www.aspenational.org" target="_blank"><img alt="Industry Logo" border="0" height="108" src="http://www.palaciocollaborative.com/images/industrylogo.jpg" width="115" /></a></p>
+			</td>
+			<td background="images/inside_04.jpg" bgcolor="#333333" valign="top" width="707">
+			<div align="center">
+			<table bgcolor="#333333" border="0" bordercolor="#333333" cellpadding="5" cellspacing="2" width="96%">
+				<tbody>
+					<tr>
+						<td bgcolor="#333333" bordercolor="#333333" height="843" valign="top">
+						<div align="justify" class="style5">
+						<p align="center" class="style6"><font color="#FFFFCC">Expertise</font></p>
+
+						<p align="left" class="style7">Palacio Collaborative provides comprehensive cost management services including Cost Modeling/Budget Verification, Cost Management, Value Management/Owner&rsquo;s Representation, Value Analysis Workshops and Project Management Assistance.</p>
+
+						<p align="left" class="style7"><span class="style8"><strong><font color="#FFFFCC">Cost Modeling/Budget Verification</font></strong><br />
+						Establishing a reconciled budget and scope is a critical first step in drastically increasing the chances for project success. Cost modeling is an accurate and effective conceptual estimating method that helps to determine if the scope and budget are reconciled, and if not, what measures may be taken to create this balance. This service is designed to ensure that projects of any size, type or complexity start on the right track.</span></p>
+
+						<p align="left" class="style8"><strong><font color="#FFFFCC">Cost Management</font></strong><br />
+						Cost management services include design phase estimating, value engineering, cost studies, and contractor estimate reconciliation. These services ensure budget and schedule compliance throughout project design.</p>
+
+						<p align="left" class="style8"><strong><font color="#FFFFCC">Value Management/Owner&rsquo;s Representation</font></strong><br />
+						Value Management is designed to help the Owner maintain control of the budget and scope of the project in the CM-at-risk delivery method. This approach ensures that the Owner&rsquo;s interests are represented. The Value Manager works directly for the Owner (or Program Manager) and manages the estimate reconciliation process between the architect&rsquo;s cost consultant and the CM-at-risk. The Owner receives the most building for the budget. It is anticipated that this service will add +/-5% to the value of the project (or conversely, stop the project scope from being needlessly reduced by +/-5%).</p>
+
+						<p align="left" class="style8"><font color="#FF0000"><strong><font color="#FFFFCC">Value Analysis Workshop</font></strong></font><br />
+						This service is to help the project team arrive at the most value-conscious design possible. After the schematic design phase the project team meets for a one-day session headed by the Value Manager to review the project design and develop a list of value-added options. Those that are deemed to be the most promising are priced by the Value Manager and a report is submitted to the Owner for review. Chosen options are then incorporated into the overall design.</p>
+
+						<p align="left" class="style8"><font color="#FFFFCC"><strong>Project Management Assistance</strong></font><br />
+						&nbsp;&nbsp;Additional services Palacio Collaborative may provide to help projects proceed more efficiently include:</p>
+
+						<ul>
+							<li class="style8">
+							<div align="left">&nbsp;Architect/Contractor Selection<br />
+							Drawing on years of experience in this industry, Palacio Collaborative can assist in the architect and contractor selection process to be sure that the appropriate firms (in terms of size, skill-set and competence) are considered.</div>
+							</li>
+							<li class="style8">
+							<div align="left">Contractor Draw Request Review</div>
+							</li>
+							<li>
+							<div align="left"><span class="style8">Contractor Change Order Pricing Analysis </span></div>
+							</li>
+						</ul>
+						</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="901">
+	<tbody>
+		<tr>
+			<td bgcolor="#000000" width="195"></td>
+			<td bgcolor="#CC0000" width="706"></td>
+		</tr>
+	</tbody>
+</table>
+
+<div align="center"><span class="style4"><font color="#FFFFFF">Site Design By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, LLC.</a></font> Maintained By <a href="mailto:dmelton@palaciocollaborative.com">Deborah S. Melton </a></span></div>
+</body>
+</html>

@@ -1,0 +1,411 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Palacio Collaborative</title>
+	<link href="/style/main.css" rel="stylesheet" type="text/css" /><script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+	<style type="text/css"><!--
+.style4 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style7 {
+	color: #FFFFCC;
+	font-weight: bold;
+}
+.style8 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style9 {font-size: 14px}
+.style10 {color: #FFFFCC; font-weight: bold; font-size: 24px;}
+.style11 {
+	font-size: 12px
+}
+.style12 {font-size: 24px; color: #FFFFCC;}
+-->
+	</style>
+</head>
+<body alink="#FFFF99" bgcolor="#999999" link="#FFFF99" onload="MM_preloadImages('images/homered.jpg','images/profilered.jpg','images/expertisered.jpg','images/portfoliored.jpg','images/newsletterred.jpg','images/legalred.jpg','images/contactred.jpg')" text="#FFFFFF" vlink="#FFFF99"><!-- ImageReady Slices (4.psd) -->
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="901">
+	<tbody>
+		<tr>
+			<td colspan="2"><img alt="header" height="306" src="images/portfoliopicturesheader.jpg" width="901" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#000000" valign="top" width="194">
+			<p><a href="http://www.palaciocollaborative.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/homered.jpg',1)"><img alt="Home" border="0" height="24" name="Home" src="images/homeblk.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/profile.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Profile','','images/profilered.jpg',1)"><img alt="Profile" name="Profile" src="images/profileblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/certifications.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('certifications','','http://www.palaciocollaborative.com/images/certificationsred.jpg',1)"><img alt="Certifications" name="certifications" src="http://www.palaciocollaborative.com/images/certifications.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/expertise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Expertise','','images/expertisered.jpg',1)"><img alt="Expertise" name="Expertise" src="images/expertiseblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Portfolio','','images/portfoliored.jpg',1)"><img alt="Portfolio" name="Portfolio" src="images/porfolioblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/newsletter.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Newsletter','','images/newsletterred.jpg',1)"><img alt="Newsletter" name="Newsletter" src="images/newsletterblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/legal.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Legal','','images/legalred.jpg',1)"><img alt="Legal" name="Legal" src="images/legalblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','images/contactred.jpg',1)"><img alt="Contact" name="Contact" src="images/contactblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a></p>
+
+			<p align="center"><a href="http://www.usgbc.org/" target="_blank"><img alt="LEED" border="0" height="76" src="http://www.palaciocollaborative.com/images/leed.jpg" width="77" /></a></p>
+
+			<p align="center"><a href="http://www.aspenational.org" target="_blank"><img alt="Industry Logo" border="0" height="108" src="http://www.palaciocollaborative.com/images/industrylogo.jpg" width="115" /></a></p>
+			</td>
+			<td background="images/inside_04.jpg" bgcolor="#333333" valign="top" width="707">
+			<div align="center" class="style8">
+			<table bgcolor="#333333" border="0" bordercolor="#333333" cellpadding="5" cellspacing="2" width="96%">
+				<tbody>
+					<tr>
+						<td bgcolor="#333333" colspan="2" height="50" valign="top">
+						<div align="justify">
+						<p align="left"><span class="style12">Portfolio</span></p>
+						</div>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="261" valign="top">
+						<p class="style11"><span class="style7"><a name="emory"></a>EMORY UNIVERSITY AT OXFORD</span><br />
+						Oxford Dormitory</p>
+
+						<p class="style11">Architect: Jova/Daniels/Busby</p>
+
+						<p align="center" class="style11"><img alt="Emory at Oxford Freshman Dorm Renovation" height="175" src="images/Emory at Oxford Freshman Hall Aerial-06 (3).jpg" width="288" /><br />
+						<br />
+						<a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" height="261" valign="top">
+						<p class="style11"><strong>Size:</strong> 112,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $23,600,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling, Cost Management, Contractor Estimate Reconciliation</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Construction Cost Management including Contractor Estimate Reconciliation added 3% value to overall project value.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="256" valign="top">
+						<p class="style11"><span class="style7"><a name="nokia"></a>NOKIA OFFIC RENOVATION</span><br />
+						Alpharetta, GA</p>
+
+						<p class="style11">Architect: Gensler<br />
+						Program Manager: Sempai Services, Inc.</p>
+
+						<p class="style11"><img alt="NOKIA Office Renovation" height="94" src="images/333 NPCE 043.jpg" width="144" /><img alt="Nokia Office Renovation" height="94" src="images/Nokia2" width="144" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 35,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $4,600,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Consulting, Project Management Assistance</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Provided Cost Consulting and Project Management Assistance throughout construction including higly specialized HALO room.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" height="31" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="340" valign="top" width="293">
+						<p class="style11"><span class="style7"><a name="GAquad"></a>GEORGIA INSTITUTE OF TECHNOLOGY</span><br />
+						Quad Cafe<br />
+						Atlanta, GA</p>
+
+						<p class="style11">Architect: Lyman Davidson Dooley, Inc.</p>
+
+						<p class="style11"><img alt="GA Tech Quad Cafe" height="94" src="images/GA Tech Quad" width="144" /><img alt="GA Tech Quad Cafe" height="94" src="images/GT quad" width="144" /><img alt="Nokia Office Renovation" height="94" src="images/GA Tech Quad Cafe" width="144" /><img alt="GA Tech Quad Cafe" height="94" src="images/GA Tech Quad Cafe2" width="144" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top" width="363">
+						<p class="style11"><strong>Size:</strong> 6,500 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $1,000,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling/Conceptual Estimating, Cost Management, Contractor Estimate Reconciliation</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Added 8% Value to this complicated interior fit-up that included a kitchen and two food and drink concepts over three floors.<br />
+						<br />
+						Other considerations to costing included construction in an active building.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" height="30" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="243" valign="top">
+						<p class="style11"><span class="style7"><a name="riverheritage"></a>RIVER HERITAGE MUSEUM</span><br />
+						Paducha, KY</p>
+
+						<p class="style11">Architect: Houser Walker Architecture</p>
+
+						<p class="style11"><img alt="River Heritage Museum" height="94" src="images/River heritage" width="144" /><img alt="River Heritage Museum" height="94" src="images/River Heritage b -  Phase II.jpg" width="144" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfoli.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><span class="style9"><strong>Size: </strong></span>Phase I: 28,000 sf Addition, Phase II: 7,000 sf Museum</p>
+
+						<p></p>
+
+						<p class="style11"><strong>Value:</strong>Phase I: $8,500,000, Phase II: $9,500,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling, Budget Verification</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" height="30" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="286" valign="top">
+						<p class="style11"><span class="style7"><a name="CCHS"></a>CLAYTON COUNTY HIGH SCHOOL</span><br />
+						Clayton County, GA</p>
+
+						<p class="style11">Architect: Perkins + Will</p>
+
+						<p class="style11"><img alt="Clayton County High School" height="166" src="images/Clayton HS.jpg" width="288" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 298,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $48,000,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Management, Budget Verification</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Provided Cost Management services accurate to within 6% of average bids.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="325" valign="top">
+						<p class="style11"><span class="style7"><a name="GSUalumni"></a>GEORGIA SOUTHERN UNIVERSITY</span><br />
+						Alumni Center</p>
+
+						<p class="style11">Architect: Lyman Davidson Dooley, Inc.</p>
+
+						<p class="style11"><img alt="Georgia Southern Alumni Center" height="179" src="images/GSU Rendering 813.jpg" width="288" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 11,350 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $3,000,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling/Conceptual Estimating, Cost Management</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						The Georgia Southern University Alumni Center project bid within 4% of Palacio Collabortive&#39;s estimate. This performance was a result of the collaboration between Owner and Design Team.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="252" valign="top">
+						<p class="style11"><span class="style7 "><a name="ronclark"></a>RON CLARK LIBRARY</span></p>
+
+						<p class="style11"><img alt="Ron Clark Library" height="173" src="images/ron clark cafe" width="288" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" height="252" valign="top">
+						<div align="center" class="style11"><br />
+						<br />
+						<br />
+						<br />
+						<br />
+						<strong>More Information Coming Soon</strong></div>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" height="27" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="239" valign="top">
+						<p class="style11"><span class="style7"><a name="GAOCEB"></a>GEORGIA INSTITUTE OF TECHNOLOGY</span><br />
+						Old Civil Engineering Building</p>
+
+						<p class="style11">Architect: Surber Barber Choate &amp; Hertlein</p>
+
+						<p class="style11"><img alt="GA Tech Old Civil Engineering Building" height="94" src="images/GA Tech Old CE Building.jpg" width="144" /><img alt="GA Tech Old Civil Engineering Building" height="94" src="images/gatechoceb.jpg" width="144" /></p>
+
+						<p align="center" class="style11"><a href="#top">Top of Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 33,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $6,100,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Value Management, Contractor Estimate Reconciliation, Value Engineering</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Added 7% Value or $400,000 to the project using the Value Management service developed by Palacio Collaborative.</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="267" valign="top">
+						<p class="style11"><span class="style7"><a name="GACULC"></a>GEORGIA INSTITUTE OF TECHNOLOGY</span><br />
+						G. Wayne Clough Undergraduate Learning Commons (CULC)<br />
+						Atlanta, GA</p>
+
+						<p class="style11">Architect: Bohlin Cywinski Jackson</p>
+
+						<p class="style11"><img alt="GA Tech CULC" height="94" src="images/CULC.jpg" width="144" /><img alt="GA Tech CULC" height="94" src="images/GA culc" width="144" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 218,500 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $63,350,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling/Conceptual Estimating, Cost Management at Schematic Design, Contractor Estimate Reconcililation, Value Engineering</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Added Project Value: Undisclosed per owner</p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="165" valign="top">
+						<p class="style11"><span class="style7"><a name="baxterstreet"></a>BAXTER STREET </span></p>
+
+						<p class="style11"><img alt="Baxter Street" height="94" src="images/BaxterStreetpic.jpg" width="144" /><img alt="Baxter Street" height="94" src="images/BaxterStreetrendering.jpg" width="144" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"></p>
+
+						<p class="style11"></p>
+
+						<p align="center" class="style11"><strong>More Information Coming Soon</strong></p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="361" valign="top">
+						<p class="style11"><span class="style7"><a name="SPSU"></a>SOUTHERN POLYTECNIC STATE UNIVERSITY</span><br />
+						Engineering Technology Center<br />
+						Marietta, GA</p>
+
+						<p class="style11">Architect: Cooper Carry Architects<br />
+						Program Manager: Hal Gibson Companies</p>
+
+						<p class="style11"><img alt="Southern Polytechnic State University" height="171" src="images/SPSU 01.jpg" width="288" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 122,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $27,000,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling/Conceptual Estimating, Value Management, Contractor Estimate Reconcililation, Value Engineering</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Added 7% Value or $1,900,000 to the project<br />
+						<br />
+						The budget was reduced by $2 Million at the Design Development phase. Palacio Collaborative led the value engineering effort that resulted in no loss of building area, scope or quality.</p>
+
+						<p align="center" class="style11"></p>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" colspan="2" valign="top">&nbsp;
+						<hr /></td>
+					</tr>
+					<tr>
+						<td bgcolor="#333333" height="230" valign="top">
+						<p class="style11"><span class="style7"><a name="GAGwinnettCollege"></a>GEORGIA GWINNETT COLLEGE</span><br />
+						Library<br />
+						Lawrenceville, GA</p>
+
+						<p class="style11">Architect: Leo A. Daly</p>
+
+						<p class="style11"><img alt="GA Gwinnett College Library" height="171" src="images/GGC Library" width="288" /></p>
+
+						<p align="center" class="style11"><a href="http://www.palaciocollaborative.com/portfolio.html">Previous Page</a></p>
+						</td>
+						<td bgcolor="#333333" valign="top">
+						<p class="style11"><strong>Size:</strong> 90,000 sf</p>
+
+						<p class="style11"><strong>Value:</strong> $19,998,000</p>
+
+						<p class="style11"><strong>Services:</strong><br />
+						Cost Modeling/Conceptual Estimating, Cost Management, Contractor Estimate Reconcililation</p>
+
+						<p class="style11"><strong>Performance Data:</strong><br />
+						Added 5% Value or $1,000,000 to the project</p>
+
+						<p class="style11"></p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="901
+  ">
+	<tbody>
+		<tr>
+			<td bgcolor="#000000" width="195"></td>
+			<td bgcolor="#CC0000" width="706"></td>
+		</tr>
+	</tbody>
+</table>
+<span class="style4"><font color="#FFFFFF">Site Design By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, LLC.</a></font> Maintained By <a href="mailto:dmelton@palaciocollaborative.com">Deborah S. Melton </a></span></div>
+</body>
+</html>

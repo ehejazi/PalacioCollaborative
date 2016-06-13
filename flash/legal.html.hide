@@ -1,0 +1,119 @@
+<HTML>
+<HEAD>
+<TITLE>Palacio Collaborative</TITLE>
+
+<link href="/style/main.css" rel="stylesheet" type="text/css" />
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.style4 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style7 {
+	color: #FFFFCC;
+	font-size: 14px;
+}
+.style14 {font-size: 12px}
+.style15 {color: #FFFFCC; font-weight: bold;}
+.style16 {font-size: 24px; color: #FFFFCC;}
+-->
+</style>
+</HEAD>
+<BODY BGCOLOR=#999999 text="#FFFFFF" link="#FFFF99" vlink="#FFFF99" alink="#FFFF99" onLoad="MM_preloadImages('images/homered.jpg','images/profilered.jpg','images/expertisered.jpg','images/portfoliored.jpg','images/newsletterred.jpg','images/legalred.jpg','images/contactred.jpg')">
+<!-- ImageReady Slices (4.psd) -->
+<TABLE WIDTH=901 BORDER=0 align="center" CELLPADDING=0 CELLSPACING=0>
+  <TR> 
+    <TD COLSPAN=2><img src="images/header3.jpg" alt="header" width="901" height="306"></TD>
+  </TR>
+
+  <TR> 
+    <TD width="194" valign="top" bgcolor="#000000"><p><a href="http://www.palaciocollaborative.com/" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','images/homered.jpg',1)"><img src="images/homeblk.jpg" alt="Home" name="Home" width="194" height="24" border="0"></a><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Home','','../../Palacio Collaborative/images/homered.jpg',1)"></a><a href="http://www.palaciocollaborative.com/profile.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Profile','','images/profilered.jpg',1)"><img src="images/profileblk.jpg" alt="Profile" name="Profile" width="194" height="25" border="0"></a><a href="http://www.palaciocollaborative.com/certifications.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('certifications','','http://www.palaciocollaborative.com/images/certificationsred.jpg',1)"><img src="http://www.palaciocollaborative.com/images/certifications.jpg" alt="Certifications" name="certifications" width="194" height="24" border="0"></a><a href="../../Palacio Collaborative/Profile.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Profile','','../../Palacio Collaborative/images/profilered.jpg',1)"></a><a href="http://www.palaciocollaborative.com/expertise.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Expertise','','images/expertisered.jpg',1)"><img src="images/expertiseblk.jpg" alt="Expertise" name="Expertise" width="194" height="24" border="0"></a><a href="http://www.palaciocollaborative.com/programmanagement.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image12','','images/programred.jpg',1)"><img src="images/programblk.jpg" name="Image12" width="194" height="25" border="0"></a><a href="../../Palacio Collaborative/Expertise.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Expertise','','../../Palacio Collaborative/images/expertisered.jpg',1)"></a><a href="http://www.palaciocollaborative.com/portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Portfolio','','images/portfoliored.jpg',1)"><img src="images/porfolioblk.jpg" alt="Portfolio" name="Portfolio" width="194" height="25" border="0"></a><a href="../../Palacio Collaborative/Portfolio.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Portfolio','','../../Palacio Collaborative/images/portfoliored.jpg',1)"></a><a href="http://www.palaciocollaborative.com/newsletter.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Newsletter','','images/newsletterred.jpg',1)"><img src="images/newsletterblk.jpg" alt="Newsletter" name="Newsletter" width="194" height="25" border="0"></a><a href="../../Palacio Collaborative/Newsletter.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Newsletter','','../../Palacio Collaborative/images/newsletterred.jpg',1)"></a><a href="http://www.palaciocollaborative.com/legal.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Legal','','images/legalred.jpg',1)"><img src="images/legalblk.jpg" alt="Legal" name="Legal" width="194" height="24" border="0"></a><a href="http://www.palaciocollaborative.com/contact.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Contact','','images/contactred.jpg',1)"><img src="images/contactblk.jpg" alt="Contact" name="Contact" width="194" height="24" border="0"></a><br>
+      <p align="center"><a href="http://www.usgbc.org/" target="_blank"><img src="http://www.palaciocollaborative.com/images/leed.jpg" alt="LEED" width="77" height="76" border="0"></a></p>
+    <p align="center"><a href="http://www.aspenational.org" target="_blank"><img src="http://www.palaciocollaborative.com/images/industrylogo.jpg" alt="Industry Logo" width="115" height="108" border="0"></a></p></TD>
+    <TD width="707" valign="top" background="images/inside_04.jpg" bgcolor="#333333"> <div align="center">
+      <table width="96%" height="1145" border="0" cellpadding="5" cellspacing="2" bordercolor="#333333" bgcolor="#333333">
+          <tr> 
+            <td height="1141" valign="top" bordercolor="#FFFFCC" bgcolor="#333333"> <div align="justify" class="style4"> 
+                <p align="left" class="style16">Expert Witness and Litigation Support Services</p>
+                <p align="left"><span class="style7"><span class="style14"><strong>Overview of Expert Witness and Litigation Support Services</strong></span></span><span class="style14"><br>
+                  We believe that the attention to detail, which is necessary to have a  successful construction-claims effort, can only be provided by proven  professionals working exclusively in the construction field. Our  professionals are proven experts in Estimating, Scheduling,  Architecture, and Project Management. It is this well-rounded base of  experience and knowledge that we offer our clients.<br>
+                  <br>
+Our professionals have a broad range of experience ranging from  government and institutional work, to private corporate projects. Our  experts rely on their experience and understanding of the construction  process from the perspectives of both the owner and contractor. It is  this range of experience that allows us to identify the cause of  construction related disputes and help our clients find a solution.<br>
+<br>
+Palacio Collaborative offers the following services to help resolve construction related conflicts:</span></p>
+                <div align="left" class="style14">
+                  <ul>
+                    <li>Mediation</li>
+                    <li>Arbitration</li>
+                    <li>Neutral Experts</li>
+                    <li>Expert Witnesses</li>
+                    <li>Claims Preparation</li>
+                  </ul>
+                </div>
+                <p align="left" class="style14"><span class="style15">Mediation</span><br>
+                  Palacio Collaborative can serve as an informal mediator to help owners  and contractors work out solutions before litigation becomes necessary.  Mediation is a process that brings parties together and helps them  resolve disputes [but it does not sit in judgment]. The process  involves dialogue, trust, open minds, and hard work.<br>
+                  <br>
+                  Our goal is to serve as a neutral party and assist in the resolution of  mid-project or end-project disputes in an effort to avoid litigation.<br>
+                  <br>
+                  <br>
+                  <span class="style15">Arbitration &amp; Litigation  Support</span><br>
+                  In arbitration Palacio Collaborative is able to give an impartial  opinion on issues. Our preparation of claims includes preliminary  investigation, comprehensive analysis, and evaluation of documentation.<br>
+                  <br>
+                  When necessary we use photographs, illustrations, and other visual aids  so that we can clearly convey the facts to arbitrators, judges, and  juries. Juries are more likely to remember information from visuals  than from spoken testimony alone.<br>
+                  <br>
+                  An important consideration in the credibility of experts is the depth  and breadth of experience they draw upon to render convincing opinions.  Unlike many professional witnesses whose knowledge may have been gained  primarily within an academic environment, Palacio Collaborative offers  the benefit of experience from successfully managing a diverse range of  projects for nearly three decades.<br>
+                  <br>
+                  <br>
+                  <span class="style15">Neutral Experts</span><br>
+                  The use of such an expert has been recognized in the 2007 AIA A201,  Section 15.2 provision which allows for the parties to choose an  initial decision maker to resolve disputes. We believe that using a  neutral expert can resolve issues much more efficiently. Typically,  expert witnesses are on one side of a case testifying in an effort to  support the arguments of the attorney. Sometimes an expert not  affiliated with either side can help to resolve the issues more  efficiently. The role of a neutral expert can range from providing  factual answers to questions after reviewing the evidence, to deciding  the case as an arbitrator. Our professional experience as project  managers and arbitrators of disputes make them well suited to excel in  this role. Click on the link below to get more information on the  advantages of using a neutral expert:<br>
+                  <br>
+                  <a href="http://digital-law-online.info/papers/lah/BNAexpert.pdf" target="_blank">http://digital-law-online.info/papers/lah/BNAexpert.pdf</a><br>
+                  <br>
+                  <br>
+                  <span class="style15">Expert Witnesses</span><br>
+                  Our experts are well-rounded professionals who have spent their careers  mastering different aspects of the construction industry. The Palacio  Collaborative Team of experienced professionals has successfully  estimated, scheduled, and managed a number of diverse projects with  over 50 years of combined experience. It is from this rich experience  that we are able to convey convincing opinions to jurors.<br>
+                  <br>
+                  <br>
+                  <span class="style15">Claims Preparation</span><br>
+                  Given our vast experience in Cost Management, Palacio Collaborative is  well-equipped to calculate damages including the costs of redesign,  construction, repair or remedial work that may be necessary. Our  experience with Architecture, Engineering, construction, and Building  Codes/Standards enables us to determine all damages based on a thorough  review of the Construction documents, Construction activity durations,  the procurement process, submittals, and scheduling logic. All of  which plays an important role in explaining the cause and effect of lost  time and money, ultimately to become the basis for developing a claim  or claim response. </p>
+            </div></td>
+          </tr>
+        </table>
+        </div></TD>
+  </TR>
+</TABLE>
+<table width="901" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="195" bgcolor="#000000">&nbsp;</td>
+    <td width="706" bgcolor="#CC0000">&nbsp;</td>
+
+  </tr>
+</table>
+<div align="center"><span class="style4"><font color="#FFFFFF">Site Design 
+  By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, 
+LLC.</a></font> Maintained By <a href="mailto:dmelton@palaciocollaborative.com">Deborah S. Melton </a></span></div>
+</BODY>
+</HTML>

@@ -1,0 +1,63 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Palacio Collaborative</title>
+	<link href="/style/main.css" rel="stylesheet" type="text/css" /><script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+	<style type="text/css"><!--
+.style1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+-->
+	</style>
+</head>
+<body alink="#FFFF99" bgcolor="#999999" link="#FFFF99" onload="MM_preloadImages('images/linkovers_01.jpg','images/linkovers_02.jpg','images/linkovers_03.jpg','images/linkovers_04.jpg','images/linkovers_05.jpg','images/linkovers_06.jpg')" text="#FFFFFF" topmargin="0" vlink="#FFFF99">
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="920">
+	<tbody>
+		<tr>
+			<td bgcolor="#FFFFFF" colspan="2"><img src="flash/index_01.jpg" /><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" height="306" width="418"><param name="movie" value="flash/pics.swf" /><param name="quality" value="high" /><embed height="306" pluginspage="http://www.macromedia.com/go/getflashplayer" quality="high" src="flash/pics.swf" type="application/x-shockwave-flash" width="418"></embed></object></td>
+		</tr>
+		<tr>
+			<td bgcolor="#000000" valign="top" width="195">
+			<p><a href="http://www.palaciocollaborative.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/homered.jpg',1)"><img alt="Home" border="0" height="24" name="Home" src="images/homeblk.jpg" width="190" /></a><a href="http://www.palaciocollaborative.com/profile.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Profile','','images/profilered.jpg',1)"><img alt="Profile" border="0" height="25" name="Profile" src="images/profileblk.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/certifications.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('certifications','','http://www.palaciocollaborative.com/images/certificationsred.jpg',1)"><img alt="Certifications" border="0" height="24" name="certifications" src="http://www.palaciocollaborative.com/images/certifications.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/expertise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Expertise','','images/expertisered.jpg',1)"><img alt="Expertise" name="Expertise" src="images/expertiseblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/programmanagement.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/programred.jpg',1)"><img name="Image12" src="images/programblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Portfolio','','images/portfoliored.jpg',1)"><img alt="Portfolio" name="Portfolio" src="images/porfolioblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/newsletter.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Newsletter','','images/newsletterred.jpg',1)"><img alt="Newsletter" name="Newsletter" src="images/newsletterblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/legal.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Legal','','images/legalred.jpg',1)"><img alt="Legal" name="Legal" src="images/legalblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','images/contactred.jpg',1)"><img alt="Contact" name="Contact" src="images/contactblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a></p>
+
+			<p align="center"></p>
+			</td>
+			<th bgcolor="#FFFFFF" bordercolor="#FFFFFF" nowrap="nowrap" valign="top" width="725">
+			<p></p>
+
+			<p></p>
+
+			<p><img alt="Footer" height="185" src="http://www.palaciocollaborative.com/images/PCfooter.jpg" width="725" /></p>
+			</th>
+		</tr>
+	</tbody>
+</table>
+
+<div align="center"><span class="style4 style1"><font color="#FFFFFF">Site Design By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, LLC.</a></font> Maintained By <a href="mailto:dmelton@palaciocollaborative.com">Deborah S. Melton </a></span></div>
+</body>
+</html>

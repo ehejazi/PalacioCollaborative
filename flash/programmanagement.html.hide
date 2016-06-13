@@ -1,0 +1,172 @@
+<html>
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Palacio Collaborative</title>
+	<link href="/style/main.css" rel="stylesheet" type="text/css" /><script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+	<style type="text/css"><!--
+.style4 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+.style11 {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+body {
+	margin-right: 10px;
+}
+.style19 {font-family: Verdana, Arial, Helvetica, sans-serif}
+.style20 {font-family: Verdana, Arial, Helvetica, sans-serif; color: #FFFFCC; font-size: 12px; font-weight: bold; }
+.style21 {font-size: 24px; color: #FFFFCC; font-family: Verdana, Arial, Helvetica, sans-serif;}
+.stylemngmt {
+	font-size: 13px;
+	color: #FFFFFF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+}
+-->
+	</style>
+</head>
+<body alink="#FFFF99" bgcolor="#999999" link="#FFFF99" onload="MM_preloadImages('images/homered.jpg','images/profilered.jpg','images/expertisered.jpg','images/portfoliored.jpg','images/newsletterred.jpg','images/contactred.jpg','images/legalred.jpg','../../Palacio Collaborative/images/homered.jpg','file:///C|/Documents and Settings/Deborah S. Melton/My Documents/Website Pages/Web graphics/sidebar/certificationsred.jpg','../../Palacio Collaborative/images/profilered.jpg','../../Palacio Collaborative/images/expertisered.jpg','../../Palacio Collaborative/images/portfoliored.jpg','../../Palacio Collaborative/images/newsletterred.jpg','images/programred_03.jpg','images/programred.jpg')" text="#FFFFFF" vlink="#FFFF99"><!-- ImageReady Slices (4.psd) -->
+<p class="stylemngmt"></p>
+
+<table align="center" bgcolor="#333333" border="0" bordercolor="#333333" cellpadding="0" cellspacing="0" width="901">
+	<tbody>
+		<tr>
+			<td colspan="2"><img height="306" src="images/programheadpic.jpg" width="901" /></td>
+		</tr>
+		<tr>
+			<td bgcolor="#000000" valign="top" width="194">
+			<p><a href="http://www.palaciocollaborative.com/" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Home','','images/homered.jpg',1)"><img alt="Home" border="0" height="24" name="Home" src="images/homeblk.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/profile.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Profile','','images/profilered.jpg',1)"><img alt="Profile" name="Profile" src="images/profileblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/certifications.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('certifications','','http://www.palaciocollaborative.com/images/certificationsred.jpg',1)"><img alt="Certifications" name="certifications" src="http://www.palaciocollaborative.com/images/certifications.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/expertise.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Expertise','','images/expertisered.jpg',1)"><img alt="Expertise" name="Expertise" src="images/expertiseblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/programmanagement.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Image12','','images/programred.jpg',1)"><img border="0" height="25" name="Image12" src="images/programblk.jpg" width="194" /></a><a href="http://www.palaciocollaborative.com/portfolio.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Portfolio','','images/portfoliored.jpg',1)"><img alt="Portfolio" name="Portfolio" src="images/porfolioblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/newsletter.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Newsletter','','images/newsletterred.jpg',1)"><img alt="Newsletter" name="Newsletter" src="images/newsletterblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 25px;" /></a><a href="http://www.palaciocollaborative.com/legal.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Legal','','images/legalred.jpg',1)"><img alt="Legal" name="Legal" src="images/legalblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a><a href="http://www.palaciocollaborative.com/contact.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Contact','','images/contactred.jpg',1)"><img alt="Contact" name="Contact" src="images/contactblk.jpg" style="border-width: 0px; border-style: solid; width: 194px; height: 24px;" /></a></p>
+
+			<p align="center"><a href="http://www.usgbc.org/" target="_blank"><img alt="LEED" border="0" height="76" src="http://www.palaciocollaborative.com/images/leed.jpg" width="77" /></a></p>
+
+			<p align="center"><a href="http://www.aspenational.org" target="_blank"><img alt="Industry Logo" border="0" height="108" src="http://www.palaciocollaborative.com/images/industrylogo.jpg" width="115" /></a></p>
+			</td>
+			<td background="images/inside_04.jpg" bgcolor="#333333" valign="top" width="707">
+			<div align="center">
+			<table bgcolor="#333333" border="0" bordercolor="#333333" cellpadding="10" cellspacing="2" width="96%">
+				<tbody>
+					<tr>
+						<td class="style11" valign="top">
+						<div>
+						<p><span class="style21"><a name="top"></a>Comprehensive Facility Solutions</span><br />
+						<span class="stylemngmt">Palacio Collaborative provides integrated Program, Cost and Value Management services for facility projects focused on the Educational, Healthcare, Science and Technology and Government sectors. Our innovative approach combines the use of industry best practices with cost, schedule and stakeholder management expertise to smoothly deliver a project that maximizes value of our client&rsquo;s time and money.</span></p>
+
+						<table cellpadding="5" width="100%">
+							<tbody>
+								<tr>
+									<td valign="top" width="150"><img height="125" src="images/conceptpic.jpg" width="150" /></td>
+									<td valign="top"><span class="stylemngmt">Through the use of interactive Cost Modeling and Management tools and a deep understanding of the facility definition process, Palacio Collaborative works with Clients to start every project with a strong vision, program, total project budget, and schedule to form a comprehensive plan for success. We help build the best Design and Construction team, integrated with the use of sustainable options, and efficient long-term operational costs. </span>
+									<p></p>
+									</td>
+								</tr>
+								<tr>
+									<td width="150"><img height="125" src="images/designpic.jpg" width="150" /></td>
+									<td class="stylemngmt" valign="top">As the design phase progresses, we work to facilitate clear and concise understanding and communication between all Team members. We hold each firm accountable for their professional obligations to maintain the design schedule, cost control and quality control process. We ensure the Design and Construction Team have the information and tools needed to meet and exceed the Client&rsquo;s project goals.</td>
+								</tr>
+								<tr>
+									<td valign="top" width="150"><img height="125" src="images/constructpic.jpg" width="150" /></td>
+									<td class="stylemngmt" valign="top">Palacio Collaborative provides expert oversight throughout the Construction Contract Administration. Our services maintain schedule, control changes, and review pay applications to be sure funds are properly dispersed. We assist Owner planning in procurement of furniture and equipment, provide supplementary monitoring of construction and project team so they can deliver construction quality at the highest possible level.</td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p><span class="stylemngmt">Palacio Collaborative welcomes the opportunity to deliver your next facility project on time, within budget and with optimal quality, function and value.</span></p>
+
+						<hr />
+						<p><span class="style21">Your Strategic Facility Solutions Partner</span><br />
+						<span class="stylemngmt">From initial project planning through building commissioning, furniture installation, and final occupancy, Palacio Collaborative is committed to the Client. Our work with our Clients has proven the importance of building a strategic Team aligned around the Owner&rsquo;s goals. We are the Owner&rsquo;s advocate and partner in delivering a thoroughly successful project. Our services ensure that we deliver the most to your facility project in Program, Cost and Value.</span></p>
+
+						<table width="100%">
+							<tbody>
+								<tr class="style11" valign="top">
+									<td width="33%"><em>&bull; Program Management<br />
+									&bull; Team Selection<br />
+									&bull; FF&amp;E Procurement Assistance<br />
+									&bull; Pre-funding Project Studies<br />
+									&bull; Scheduling<br />
+									&bull; On-site Construction Contract<br />
+									&bull; Administration<br />
+									&bull; Post Occupancy Evaluation</em></td>
+									<td width="34%">
+									<p><em>&bull; Cost Management<br />
+									&bull; Feasibility Studies<br />
+									&bull; Budgeting<br />
+									&bull; Cost Modeling<br />
+									&bull; Phase Estimating<br />
+									&bull; Change Order Pricing<br />
+									&bull; Contractor Estimate Review<br />
+									&nbsp;&nbsp;&nbsp;&nbsp;and Reconciliation</em></p>
+									</td>
+									<td width="33%"><em>&bull; Value Management<br />
+									&bull; Value Engineering Analysis<br />
+									&bull; Value Analysis Workshops<br />
+									&bull; Life Cycle Cost Analysis<br />
+									&bull; Integrated Optimization<br />
+									&bull; Construction Document and<br />
+									&nbsp;&nbsp;&nbsp; Specification Review<br />
+									&bull; Sustainability Analysis</em></td>
+								</tr>
+							</tbody>
+						</table>
+
+						<p></p>
+
+						<hr />
+						<p><span class="style20"><img align="left" height="116" src="images/teampic.jpg" width="175" /></span><span class="stylemngmt"><font color="#FFFFCC"><strong>TEAM LEADERSHIP</strong></font><br />
+						Palacio Collaborative&rsquo;s greatest resource is the relationship we establish and maintain throughout the life of the project with the Owner and the entire Project Team. We provide a team-oriented approach, hands-on customer service, and professional vigor. Michael D. Palacio and Chip Bullock, both with years of expertise, lead a dynamic team that brings a wide range of focused experience and knowledge. </span></p>
+
+						<p class="stylemngmt"><strong><font color="#FFFFCC">MICHAEL D. PALACIO, CPE PRESIDENT AND PROJECT DIRECTOR</font></strong><br />
+						Michael D. Palacio has over seventeen years of Design and Construction experience. As the Project Director of Palacio Collaborative, Michael oversees all development, cost control, and project communication. During his career, Michael witnessed first hand the need to provide Clients comprehensive building solutions that manage program, cost, and value from start to finish. Our professional approach does just that in protecting the Client&rsquo;s interests, preserving design integrity and delivering to the Owner the most building the budget will allow.</p>
+
+						<p class="stylemngmt"><font color="#FFFFCC"><strong>F. CHIP BULLOCK, AIA, LEED AP BD + C DIRECTOR OF PROGRAM MANAGEMENT</strong></font><br />
+						Chip Bullock has over twenty nine years of Program Management and Architecture practice with proven leadership, management, creativity, design oversight and technical experience in integrated A/E planning, programming, design and construction contract administration. Chip has served in Senior Program Management leadership roles at the CDC (Centers for Disease Control and Prevention) and Emory University. Chip is well known for strong team building, facilitation, consensus making, conflict resolution, and negotiating skills.</p>
+						</div>
+						<a href="#top">&lt;Back to Top&gt; </a>
+
+						<ul>
+						</ul>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			</td>
+		</tr>
+	</tbody>
+</table>
+
+<div align="center">
+<table border="0" cellpadding="0" cellspacing="0" width="901
+  ">
+	<tbody>
+		<tr>
+			<td bgcolor="#000000" width="195"></td>
+			<td bgcolor="#CC0000" width="706"></td>
+		</tr>
+	</tbody>
+</table>
+<span class="style4"><font color="#FFFFFF">Site Design By <a href="http://www.lazarusgraphics.com" target="_blank">Lazarus Graphics, LLC.</a></font> Maintained By <a href="mailto:dmelton@palaciocollaborative.com">Deborah S. Melton </a></span></div>
+</body>
+</html>
